@@ -1,0 +1,11 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+authors = ["sam-bowman"]
+edition = "2024"
+
+[dependencies]
+backend = { path = "../backend"}
+rand = "0.7.3"
+sdl2 = "0.33"
+clap = "2.33.0"

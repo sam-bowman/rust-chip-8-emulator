@@ -1,0 +1,10 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["sam-bowman"]
+edition = "2024"
+
+[dependencies.rand]
+version = "0.7.3"
+default-features = false
+features = [ "small_rng" ]
